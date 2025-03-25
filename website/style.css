@@ -11,6 +11,17 @@ body {
     line-height: 1.6;
 }
 
+.content-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
 header {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
@@ -23,7 +34,7 @@ header {
 header .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #007BFF;
+    color: #9402e3;
 }
 
 nav ul {
@@ -37,14 +48,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #007BFF;
     font-size: 1rem;
     padding: 5px 10px;
     transition: background 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #007BFF;
+    background-color: #c203fc;
     color: #fff;
     border-radius: 4px;
 }
@@ -53,19 +64,19 @@ nav ul li a:hover {
     text-decoration: none;
     margin-left: 10px;
     padding: 5px 15px;
-    border: 1px solid #007BFF;
+    border: 1px solid #9402e3;
     border-radius: 4px;
     font-size: 1rem;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .auth-buttons a.sign-in {
-    background-color: #fff;
-    color: #007BFF;
+    background-color: ##9402e3;
+    color: #af02e3;
 }
 
 .auth-buttons a.register {
-    background-color: #007BFF;
+    background-color: #8202e3;
     color: #fff;
 }
 
@@ -99,7 +110,7 @@ main {
 
 .appointment-date {
     font-weight: bold;
-    color: #007BFF;
+    color: #8202e3;
 }
 
 footer {
@@ -131,4 +142,5 @@ footer {
     .auth-buttons {
         margin-top: 10px;
     }
+	
 }
