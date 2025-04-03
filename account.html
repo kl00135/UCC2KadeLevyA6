@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Account</title>
+    <title>My Account | PillPilot</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,18 +24,28 @@
     <main>
         <h1>My Account</h1>
 
-        <div class="account-section">
-            <h2>Account Details</h2>
-            <p><strong>Email:</strong> email@email.com</p>
-            <p><strong>Password:</strong> ***********</p>
-            <p><strong>Insurance Info:</strong> *********</p>
-            <button>Change Account Details</button>
+        <div class="profile-card">
+            <img src="profile-placeholder.png" alt="User Profile Picture" class="profile-pic">
+            <div class="user-info">
+                <h2>John Doe</h2>
+                <p><strong>Email:</strong> email@email.com</p>
+                <button class="edit-profile"> Edit Profile</button>
+            </div>
         </div>
 
-        <div class="account-section">
-            <h2>Payment Details</h2>
-            <p><strong>Card Details:</strong> **** - **** - 6549</p>
-            <button>Change Payment Details</button>
+        <div class="account-container">
+            <div class="account-card">
+                <h2>Account Details</h2>
+                <p><strong>Password:</strong> ***********</p>
+                <p><strong>Insurance Info:</strong> *********</p>
+                <button>Change Account Details</button>
+            </div>
+
+            <div class="account-card">
+                <h2>Payment Details</h2>
+                <p><strong>Card Details:</strong> **** - **** - 8902</p>
+                <button>Change Payment Details</button>
+            </div>
         </div>
     </main>
 
